@@ -1,0 +1,13 @@
+{
+  "watch": [
+    "./src/main.ts",
+    "./src/*.ts",
+    "./src/**/*.ts",
+    "./src/**/**/*.ts",
+    "./src/**/**/*.json",
+    "./views/**/*.ejs",
+    "./views/*.ejs"
+  ],
+  "ext": "ts, json",
+  "exec": "ts-node ./src/main.ts"
+}
